@@ -1,0 +1,160 @@
+body {
+	margin: 0;
+	background: url(./img/bg-image.jpg);
+	text-transform: uppercase;
+	background-position: center;
+	font-family: 'Montserrat', arial;
+}
+
+img {
+	max-width: 100%;
+	vertical-align: top;
+	height: auto;
+
+}
+
+.wrapper {
+	overflow: hidden;
+}
+
+.cantainer {
+	max-width: 1170px;
+	padding: 0 15px;
+	margin: 0 auto
+}
+
+h1{
+	text-align: center;
+}
+h2{
+	text-align: center;
+	color: #fff;
+}
+
+.logo {
+	text-align: center;
+	top:5%;
+	text-align: center;
+	width: 100%;
+}
+.logo img{
+	height: 100px;
+	width: 100px;
+}
+
+#demo{
+	text-align: center;
+	font-size: 72px;
+	font-size: 5.8vw;
+	letter-spacing: 5px;
+	color:#0d0d0d;
+	}
+.form-block {
+	display: flex;
+	justify-content: center;
+	margin-bottom: 50px;
+}
+
+.form-block input {
+	width: 250px;
+	padding: 10px 15px;
+	border-radius: 0;
+	color: #fff;
+}
+
+.form-block input[type="text"] {
+	border: 1px solid #000;
+	background:transparent;
+	color: #ffffff;
+	
+}
+
+.form-block #email {
+	margin-right: 10px; 	
+}
+
+.form-block input[type="submit"] {
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	font-family: 'Oswald', Arial;
+	border: 1px solid #fff;
+	background:#fff;
+	font-weight: 500;
+	color: #000;
+	cursor: progress;
+}
+input[type="submit"]:hover{
+	color: #fff;
+	background: #000;
+}
+
+.social {
+	overflow: hidden;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	display: flex;
+	justify-content: center;
+}
+
+.social li {
+	float: left;
+	margin-left: 10px;
+	opacity: 0.4px;
+}
+
+.social li:last-chaild {
+	margin: 0;
+}
+
+.social li a {
+	display: inline-block;
+	vertical-align: middle;
+	width: 60px;
+	height:60px;
+	position: relative;
+	border-radius: 100%;
+	border: 2px solid #293d3d;
+	background: #fff;
+	opacity: 0.85;
+}
+
+ .social li a:hover{
+ 	opacity: 0.7;
+}
+
+.social li .fa {
+	font-size: 40px;
+	font-weight: 600;
+	color: #3399ff;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+a{
+color:#fff;
+text-decoration:underline;
+}
+p.copyright{
+font-size:20px;
+margin-top:60px;
+text-align: center;
+color:#fff;
+}
+
+
+@media (max-width: 480px) {
+.form-block {
+	flex-direction: column !important;
+}
+
+.form-block input {
+	width: 100%;
+}
+
+.form-block input[type="text"] {
+	margin-bottom: 15px;
+}
+}
